@@ -4,7 +4,6 @@ Startpage
 ### ToDo
 - add search (start in searchbar, use startpage or searx in the future)
 - scale it bigger (fullscreen)
-- add links (deepL, uni website)
 - make links bigger?
 
 This is a fork of RamenMaestro's [startpage](https://github.com/RamenMaestro/startpage) with a image scroll option and larger option size.
