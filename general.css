@@ -48,6 +48,7 @@ h1 {
 }
 
 .image-wrapper {
+  cursor: pointer;
   border-style: solid;
   border-width: 1px;
   border-color: #232328;
@@ -66,24 +67,6 @@ img {
   top: -1px;
   width: 300px;
   height: 600px;
-}
-
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 575px;
-  width: auto;
-  right: 10px;
-  padding: 5px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 30px;
-  transition: 0.6s ease;
-  user-select: none;
-  border-radius: 3px 0 0 3px;
-  border-radius: 50%;
-  display: inline-block;
 }
 
 .fade {
@@ -181,4 +164,8 @@ ul[class=red] > li > a:hover {
 ul[class=yellow] > li > a:hover {
   color: #edd934;
   transition: all 0.5s;
+}
+
+body {
+  overflow: hidden; /* Hide scrollbars */
 }
